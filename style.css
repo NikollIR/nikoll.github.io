@@ -1,0 +1,63 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none ;
+    list-style: none;
+}
+body {
+    background-color: rgb(141, 132, 132);
+
+ }
+ img {
+    max-width: 100%;
+ }
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+.header {
+    background-image: url(imagenes/dnd.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+     
+
+}
+
+.menu {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: blue;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: antiquewhite;
+    font-weight: 600;
+    display: block;
+}
+
+
